@@ -127,3 +127,13 @@ main{
     margin: 0 auto;
   
 }
+
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-description{
+    font-weight: 600;
+}
