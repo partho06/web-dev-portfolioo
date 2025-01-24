@@ -14,7 +14,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* margin: 50 200px; */
+    margin: 0 200px;
 }
 
 .nav-title{
@@ -52,4 +52,41 @@ nav ul {
     padding: 18px 35px;
     border-radius: 5px;
     border: none;
+}
+
+/* banner styles */
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.banner-profile-pic{
+    width: 584px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+
+.bannet-content{
+    width: 584px;
+}
+
+
+
+/* header  */
+.header{
+    background-image: url("../images/developer.png"),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
 }
